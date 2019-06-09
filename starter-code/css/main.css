@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+.body {
+    color: 1A1A1A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #FFF;
+    position: absolute;
+    max-width: 100%;
+    height: 80px;
+}
+
+.navContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.spotifyLogo {
+    background-color: #FFF;
+    min-width: 40%;
+    height: 100%;
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.spotifyLogo img {
+    max-width: 30%;
+    padding-left: 20px;
+}
+
+.navLinks {
+    background-color: #FFF;
+    min-width:40%;
+    max-width: 100%;
+    height: 100%;
+    font-size: 21px;
+
+    
+}
+
+.navLinks ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+.largeImg {
+    display: flex;
+    width: 100%;
+    height: 850px;
+    color:#FFF;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.largeImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    align-self: center;
+}
+
+.smallDescription {
+    align-self: flex-end;
+}
+
+.title, .smallDescription {
+    position: absolute;
+}
+
+.whatsOnSpotify {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    color: black;
+}
+
+.features {
+    display: flex;
+    height: 100%;
+    border: 3px solid border;
+}
+
+.songs, .hdmusic, .stream {
+    width: 100%;
+    border: 3px solid border;
+    text-align: center;
+}
+
+.question {
+    height: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.question h5 {
+    display: inline-block;
+    border-bottom: 4px solid #00B172;
+}
+
+
+.songs img, .hdmusic img, .stream img {
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.songs h5, .hdmusic h5, .stream h5 {
+    color: #00B172;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.songs p, .hdmusic p, .stream p { 
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.greenSection {
+    height: 600px;
+    width: 100%;
+    background-color: #00B172;
+    border: 10px solid #FFF;
+    display:flex;
+    flex-direction: row;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+.greenDiv {
+    padding-left: 40px;
+}
+
+/* .kanyeHeader {
+    padding-bottom: 100px;
+}
+ */
+.greenDiv h1 {
+    border-bottom: 4px solid #FFF;
+    font-size: 30px;
+    width: fit-content;
+}
+
+.greenSection img {
+    max-height: 90%;
+    max-width: 90%;
+    padding-right: 40px;
+}
+
+.textAndIcon .text {
+    width: 30%;
+    padding-right: 180px;
+}
+
+.textAndIcon {
+    display: inline-flex;
+}
+
+ .spotifyIconWhite {
+    text-align: center;
+    padding-top: 40px;
+} 
+
+.spotifyIconWhite img {
+    max-height: 25%;
+    max-width: 25%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
